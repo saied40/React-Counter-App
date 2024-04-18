@@ -1,0 +1,62 @@
+body {
+  background-color: #23272f;
+  color: #cbc9c0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  text-align: center;
+}
+
+.app {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 2rem;
+}
+
+button {
+  background: transparent;
+  border: 1px solid;
+  font-size: 1.5rem;
+  padding: 7px 15px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+button.dec {
+  border-color: red;
+}
+
+button.inc {
+  border-color: #0f0;
+}
+
+.c-red {
+  color: red;
+}
+.c-green {
+  color: #0f0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.8rem;
+  width: 100%;
+  text-align: center;
+}
+
+form .btns {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
